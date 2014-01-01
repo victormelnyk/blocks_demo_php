@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Localization>
+    <Tags>
+      <language>
+        <en>en</en>
+        <uk>uk</uk>
+        <ru>ru</ru>
+      </language>
+      <color>
+        <en>green</en>
+        <uk>blue</uk>
+        <ru>red</ru>
+      </color>
+    </Tags>
+  </Localization>
+</Block>

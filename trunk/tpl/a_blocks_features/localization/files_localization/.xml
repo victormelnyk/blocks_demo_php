@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Localization>
+    <FilesByMl>
+      <F>.htm</F>
+      <F>web/.js</F>
+      <F>web/.css</F>
+      <F>web/img/flag.png</F>
+    </FilesByMl>
+  </Localization>
+</Block>

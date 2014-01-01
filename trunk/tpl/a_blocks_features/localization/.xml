@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Blocks>
+    <language_menu
+      Component="blocks.sys.static"
+    />
+    <files_localization
+      Component="blocks.sys.static"
+    />
+    <tags_localization
+      Component="blocks.sys.static"
+    />
+  </Blocks>
+</Page>
