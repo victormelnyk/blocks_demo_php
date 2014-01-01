@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <l_effects.menu_static
+        Name="MenuStatic"
+        Description="Simple menu with static content"
+      />
+    </Pages>
+  </Settings>
+</Block>

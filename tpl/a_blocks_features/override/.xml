@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Blocks>
+    <block_page_block
+      Component="blocks.sys.static"
+    />
+    <block_page_block_inherited
+      Component="blocks.sys.static"
+    />
+    <block_page_inherited
+      Component="blocks.sys.static"
+    />
+    <block_component
+      Component="blocks.sys.static"
+    />
+    <block_component_inherited
+      Component="blocks.sys.static"
+    />
+  </Blocks>
+</Page>
