@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <RecordPostProcessFunctions>
+      <recordPostProcess/>
+    </RecordPostProcessFunctions>
+    <RecordsetPostProcessFunctions>
+      <recordsetPostProcess/>
+    </RecordsetPostProcessFunctions>
+    <Filter>
+      <field_id
+        OptionType="Equal"
+        Title="ID"
+        Type="Integer"
+        SqlSource="T.id"
+        IsKey="true"
+        UseInOrder="true"
+      />
+      <field_boolean
+        OptionType="Equal"
+        Title="Boolean"
+        Type="Boolean"
+        SqlSource="T.f_boolean"
+        UseInOrder="true"
+      />
+      <field_tinyint
+        OptionType="Range"
+        Title="Tinyint"
+        Type="Integer"
+        SqlSource="T.f_tinyint"
+        UseInOrder="true"
+      />
+    </Filter>
+    <Order
+      ParamName="Order"
+      DefaultOptionName="field_id"
+      DirectionParamName="direction"
+    >
+      <field_id_field_boolean
+        Title="ID and Boolean"
+        SqlSource="T.id, T.f_boolean"
+      />
+    </Order>
+    <Limit
+      ParamName="limit"
+      DefaultOptionName="count_10"
+      PageNoParamName="page"
+    >
+      <count_10
+        Title="10"
+        Value="10"
+      />
+      <count_20
+        Title="20"
+        Value="20"
+      />
+      <count_40
+        Title="40"
+        Value="40"
+      />
+    </Limit>
+    <Params>
+      <EditPageUrl>form.php</EditPageUrl>
+      <ViewPageUrl>view.php</ViewPageUrl>
+    </Params>
+  </Settings>
+</Block>
