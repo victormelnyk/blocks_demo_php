@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <l_sys.static
+        Name="Static"
+        Description="Demo for component blocks.sys.static"
+      />
+      <l_sys.list
+        Name="List"
+        Description="Demo for component blocks.sys.list"
+      />
+      <l_sys.named_list
+        Name="NamedList"
+        Description="Demo for component blocks.sys.named_list"
+      />
+    </Pages>
+  </Settings>
+</Block>

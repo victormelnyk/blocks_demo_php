@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Blocks>
+    <named_list
+      Component="blocks.sys.named_list"
+    />
+    <block1
+      Component="blocks.sys.static"
+      Parent="named_list"
+    />
+    <block2
+      Component="blocks.sys.static"
+      Parent="named_list"
+    />
+    <block3
+      Component="blocks.sys.static"
+      Parent="named_list"
+    />
+  </Blocks>
+</Page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <l_sys.index
+        Name="Sys"
+        Description="Demo for library blocks.sys"
+      />
+      <l_effects.index
+        Name="Effects"
+        Description="Demo for library blocks.effects"
+      />
+      <l_db_view.index
+        Name="DBView"
+        Description="Demo for library blocks.db_view"
+      />
+      <a_blocks_features.index
+        Name="BlocksFeatures"
+        Description="Features Blocks"
+      />
+      <a_db_view_bootstrap.index
+        Name="DBViewBootstrap"
+        Description="Features Blocks"
+      />
+    </Pages>
+  </Settings>
+</Block>

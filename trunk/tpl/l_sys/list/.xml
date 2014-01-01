@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Blocks>
+    <list
+      Component="blocks.sys.list"
+    />
+    <block1
+      Component="blocks.sys.static"
+      Parent="list"
+    />
+    <block2
+      Component="blocks.sys.static"
+      Parent="list"
+    />
+  </Blocks>
+</Page>

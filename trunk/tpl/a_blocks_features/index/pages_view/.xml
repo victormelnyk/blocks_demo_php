@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <a_blocks_features.hello_world
+        Name="Hello world"
+        Description="Simple page"
+      />
+      <a_blocks_features.override
+        Name="Override"
+        Description="Override levels"
+      />
+      <a_blocks_features.template_tags
+        Name="TemplateTags"
+        Description="Tags replase in files"
+      />
+      <a_blocks_features.page_child
+        Name="Inheritance pages"
+        Description="Inheritance pages"
+      />
+      <a_blocks_features.localization
+        Name="Localization"
+        Description="Localization files and tags"
+      />
+    </Pages>
+  </Settings>
+</Block>

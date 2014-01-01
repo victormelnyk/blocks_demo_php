@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set>
+  <InitScripts>
+    <InitScript><![CDATA[
+      function frameHeightSet()
+      {
+        window.frameElement.style.height =
+          document.body.offsetHeight + 20 + 'px';
+      }
+
+      if (window.frameElement)
+      {
+        frameHeightSet();
+        setInterval(frameHeightSet, 5000);
+      }
+    ]]></InitScript>
+  </InitScripts>
+  <RunDirs>
+    <a_blocks_demo>blocks_demo/web/</a_blocks_demo>
+    <a_blocks_features>blocks_demo/web/a_blocks_features/</a_blocks_features>
+    <a_db_view_bootstrap>blocks_demo/web/a_db_view_bootstrap/</a_db_view_bootstrap>
+    <l_db_view>blocks_demo/web/l_db_view/</l_db_view>
+    <l_effects>blocks_demo/web/l_effects/</l_effects>
+    <l_sys>blocks_demo/web/l_sys/</l_sys>
+  </RunDirs>
+</Set>
