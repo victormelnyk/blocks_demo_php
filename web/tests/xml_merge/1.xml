@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <N_Inser>
+    <Node1/>
+    <Node2/>
+  </N_Inser>
+  <N_Delete>
+    <Node1/>
+    <Node2/>
+    <Node3/>
+  </N_Delete>
+  <N_Update>
+    <Node1>Value1</Node1>
+    <Node2>Value1</Node2>
+    <Node3>Value1</Node3>
+  </N_Update>
+  <N_InserBefore>
+    <Node1/>
+    <Node3/>
+  </N_InserBefore>
+  <N_InserNotUnique>
+    <Item/>
+    <Item/>
+  </N_InserNotUnique>
+  <A_Inser Attr1="Value1" Attr2="Value1"/>
+  <A_Delete Attr1="Value1" Attr2="Value1" Attr3="Value1"/>
+  <A_Update Attr1="Value1" Attr2="Value1" Attr3="Value1"/>
+  <A_InserBefore Attr1="Value1" Attr3="Value1"/>
+  <A_OnlyAttr Attr1="Value1">Value1</A_OnlyAttr>
+  <Level1>
+    <Level2>
+      <Level3 Attr1="Value1">Value1</Level3>
+    </Level2>
+  </Level1>
+  <N_List>
+    <Item>Value1</Item>
+    <_n-Item2-Item>Value2</_n-Item2-Item>
+    <_n-Item3-Item Attr1="Value1">Value3</_n-Item3-Item>
+    <_n-Item4-Item>Value4</_n-Item4-Item>
+    <Item>Value5</Item>
+  </N_List>
+  <N_cData><![CDATA[
+    < > &
+  ]]></N_cData>
+  <N_cData_2><![CDATA[
+    Value
+  ]]></N_cData_2>
+</Root>
