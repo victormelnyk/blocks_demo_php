@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set>
+  <Inherited>
+    <blocks_demo._/>
+  </Inherited>
+  <Styles>
+    <_i-Style IsNotCollect="true">e:web/bootstrap/3.0.3/css/bootstrap.min.css</_i-Style>
+  </Styles>
+  <Scripts>
+    <_i-Script IsNotCollect="true">e:web/jquery/1.10.2/jquery-1.10.2.min.js</_i-Script>
+    <_i-Script IsNotCollect="true">e:web/bootstrap/3.0.3/js/bootstrap.min.js</_i-Script>
+  </Scripts>
+</Set>
