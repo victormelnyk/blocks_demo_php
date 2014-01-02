@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Filter>
+      <field_id
+        OptionType="Equal"
+        Title="ID"
+        Type="Integer"
+        SqlSource="T.id"
+      />
+    </Filter>
+    <Params>
+      <ViewTitle>Type</ViewTitle>
+    </Params>
+  </Settings>
+</Block>

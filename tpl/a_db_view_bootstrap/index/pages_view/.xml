@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <a_db_view_bootstrap.view
+        Name="DBViewBootstrap"
+        Description="Demo for db_view_bootstrap"
+      />
+    </Pages>
+  </Settings>
+</Block>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Inherited>
+    <blocks_base.db_view_bootstrap.view/>
+  </Inherited>
+  <Blocks>
+    <!--!!fix for support it controler Parent="content"/-->
+    <content Component="blocks.sys.list"/>
+  </Blocks>
+</Page>
