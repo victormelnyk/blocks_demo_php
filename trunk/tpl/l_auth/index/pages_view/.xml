@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <l_auth.test
+        Name="Test"
+        Description="Test page"
+      />
+      <l_auth.login
+        Name="Login"
+        Description="Demo for login"
+      />
+      <l_auth.sign_up
+        Name="SignUp"
+        Description="Demo for sign_up"
+      />
+      <l_auth.password_change
+        Name="PasswordChange"
+        Description="Demo for password_change"
+      />
+      <l_auth.password_restore
+        Name="PasswordRestore"
+        Description="Demo for password_restore"
+      />
+    </Pages>
+  </Settings>
+</Block>

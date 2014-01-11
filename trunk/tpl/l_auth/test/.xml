@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Settings DefaultLogonLevel="user"/>
+  <Blocks>
+    <static
+      Component="blocks.sys.static"
+    />
+    <user_info
+      Component="blocks.auth.static"
+    />
+  </Blocks>
+</Page>

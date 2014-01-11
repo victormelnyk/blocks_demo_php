@@ -14,6 +14,10 @@
         Name="DBView"
         Description="Demo for library blocks.db_view"
       />
+      <l_auth.index
+        Name="Auth"
+        Description="Demo for library blocks.auth"
+      />
       <a_blocks_features.index
         Name="BlocksFeatures"
         Description="Blocks features"
