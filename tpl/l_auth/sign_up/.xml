@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page>
+  <Blocks>
+    <sign_up
+      Component="blocks_demo.auth.sign_up"
+    />
+  </Blocks>
+</Page>

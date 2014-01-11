@@ -22,5 +22,6 @@
     <l_db_view>blocks_demo/web/l_db_view/</l_db_view>
     <l_effects>blocks_demo/web/l_effects/</l_effects>
     <l_sys>blocks_demo/web/l_sys/</l_sys>
+    <l_auth>blocks_demo/web/l_auth/</l_auth>
   </RunDirs>
 </Set>

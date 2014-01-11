@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Set>
+  <Inherited>
+    <blocks_demo._/>
+  </Inherited>
+  <Settings>
+    <LogonLevels>
+      <admin/>
+      <user/>
+    </LogonLevels>
+  </Settings>
+</Set>
