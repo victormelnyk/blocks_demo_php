@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Settings>
+    <Pages>
+      <l_db_view.view
+        Name="View"
+        Description="Demo for list view"
+      />
+      <l_db_view.tree_view
+        Name="TreeView"
+        Description="Demo for tree view"
+      />
+      <l_db_view.grid_view
+        Name="GridView"
+        Description="Demo for grid view"
+      />
+    </Pages>
+  </Settings>
+</Block>

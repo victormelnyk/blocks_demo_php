@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block>
+  <Localization>
+    <Tags>
+      <Country>
+        <en>English</en>
+        <uk>Ukraine</uk>
+        <ru>Russia</ru>
+      </Country>
+    </Tags>
+  </Localization>
+  <Tags>
+    <TagString>TagValue</TagString>
+  </Tags>
+</Block>

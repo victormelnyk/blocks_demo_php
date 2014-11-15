@@ -1,0 +1,6 @@
+.tags-container {
+  background-image: url("/<~fileFlpByLevelGet|b:web/img/flag_en.png~>");
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
