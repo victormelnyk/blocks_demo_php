@@ -1,4 +1,4 @@
-<?php
+<?
 //!! review this code
 /*
 	PHP WebSocket Server 0.2
