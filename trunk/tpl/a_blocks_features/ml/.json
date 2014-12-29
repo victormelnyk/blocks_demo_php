@@ -1,0 +1,13 @@
+{
+  "blocks": {
+    "language_menu": {
+      "component": "blocks.sys.static"
+    },
+    "files_ml": {
+      "component": "blocks.sys.static"
+    },
+    "tags_ml": {
+      "component": "blocks.sys.static"
+    }
+  }
+}
