@@ -1,0 +1,20 @@
+{
+  "fInteger": 5,
+  "fFloat": 7.2,
+  "fString": "Simple text",
+  "fText": "Multy line text 1\r\nMulty line text 2\r\nMulty line text 3\r\nMulty line text 4",
+  "farray": [
+    "value1",
+    "value2",
+    "value3"
+  ],
+  "fobject": {
+    "fInteger2": 5,
+    "fFloat2": 7.2,
+    "fString2": "Simple text",
+    "fobject2": {
+      "fInteger3": 5,
+      "fFloat3": 7.2
+    }
+  }
+}
