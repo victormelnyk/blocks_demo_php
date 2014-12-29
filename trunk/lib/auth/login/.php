@@ -1,7 +1,7 @@
-<?php
-cPage::moduleAdd('blocks/lib/auth/login/.php');
+<?
+Page::addModule('blocks/lib/auth/login/.php');
 
-class cBlocksDemo_Auth_Login extends cBlocks_Auth_Login
+class BlocksDemo_Auth_Login extends Blocks_Auth_Login
 {
 }
 ?>

@@ -1,14 +1,14 @@
-<?php
+<?
 $lRootDir = '../../../';
 
 require_once($lRootDir.'blocks/comp/common/tools.php');
 require_once($lRootDir.'blocks/comp/blocks/blocks.php');
 
-cPage::settingsGet()->rootDir = $lRootDir;
+Page::getSettings()->rootDir = $lRootDir;
 
-cPage::moduleAdd('blocks/comp/common/db.php');
-cPage::moduleAdd('blocks_demo/conf_app/.php');
-cPage::moduleAdd('blocks/comp/helpers/bootstrap_table/.php');
+Page::addModule('blocks/comp/common/db.php');
+Page::addModule('blocks_demo/conf_app/.php');
+Page::addModule('blocks/comp/helpers/bootstrap_table/.php');
 
-cPage::settingsGet()->db = new cDbMySql('localhost', 'root', '', 'blocks');
+Page::getSettings()->db = new cDbMySql('localhost', 'root', '', 'blocks');
 ?>

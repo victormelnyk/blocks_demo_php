@@ -1,4 +1,4 @@
-<?php
+<?
 require_once('../../../../blocks/comp/common/tools.php');
 require_once('../../../../blocks/comp/common/db.php');
 

@@ -18,9 +18,9 @@
         Name="Inheritance pages"
         Description="Inheritance pages"
       />
-      <a_blocks_features.localization
-        Name="Localization"
-        Description="Localization files and tags"
+      <a_blocks_features.ml
+        Name="i19n"
+        Description="i19n files and tags"
       />
     </Pages>
   </Settings>

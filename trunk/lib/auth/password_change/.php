@@ -1,7 +1,7 @@
-<?php
-cPage::moduleAdd('blocks/lib/auth/password_change/.php');
+<?
+Page::addModule('blocks/lib/auth/password_change/.php');
 
-class cBlocksDemo_Auth_PasswordChange extends cBlocks_Auth_PasswordChange
+class BlocksDemo_Auth_PasswordChange extends Blocks_Auth_PasswordChange
 {
   protected function onError($aErrorType)
   {

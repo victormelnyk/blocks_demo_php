@@ -1,7 +1,7 @@
-<?php
-cPage::moduleAdd('blocks/lib/auth/password_restore/.php');
+<?
+Page::addModule('blocks/lib/auth/password_restore/.php');
 
-class cBlocksDemo_Auth_PasswordRestore extends cBlocks_Auth_PasswordRestore
+class BlocksDemo_Auth_PasswordRestore extends Blocks_Auth_PasswordRestore
 {
   protected function mailSend($aLogin, $aPasswordNew, $aReportHtml)
   {
