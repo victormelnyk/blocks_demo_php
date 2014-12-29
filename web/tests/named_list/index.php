@@ -1,6 +1,6 @@
 <?php
-require_once('../../../blocks/components/common/tools.php');
-require_once('../../../blocks/components/helpers/performance_counter/.php');
+require_once('../../../../blocks/comp/common/tools.php');
+require_once('../../../../blocks/comp/helpers/performance_counter/.php');
 
 $lIterationCount = isset($_GET['IterationCount'])
   ? (integer)$_GET['IterationCount'] : 10000;
@@ -16,7 +16,7 @@ cPCHelper::stop('Create array');
 
 cPCHelper::start('Create list');
 for ($i = 0; $i < $lIterationCount; $i++)
-  $lList = new cNamedIndexedList(cNamedList::DUPLICATION_TYPE_ERROR);
+  $lList = new NamedIndexedList();
 cPCHelper::stop('Create list');
 
 cPCHelper::start('Add index array');
