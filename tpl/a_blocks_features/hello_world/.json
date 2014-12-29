@@ -1,0 +1,7 @@
+{
+  "blocks": {
+    "content": {
+      "component": "blocks.sys.static"
+    }
+  }
+}
