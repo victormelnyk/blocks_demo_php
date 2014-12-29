@@ -1,4 +1,4 @@
-<?php
+<?
 require_once('../../../blocks/components/common/tools.php');
 
 print(templateProcess(fileToString('.htm'), array(

@@ -1,7 +1,7 @@
-<?php
-cPage::moduleAdd('blocks/lib/auth/sign_up/.php');
+<?
+Page::addModule('blocks/lib/auth/sign_up/.php');
 
-class cBlocksDemo_Auth_SignUp extends cBlocks_Auth_SignUp
+class BlocksDemo_Auth_SignUp extends Blocks_Auth_SignUp
 {
   protected function loginExist($aLogin)
   {

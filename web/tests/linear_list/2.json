@@ -1,20 +1,29 @@
 {
-  "fInteger": 5,
-  "fFloat": 7.2,
-  "fString": "Simple text",
-  "fText": "Multy line text 1\r\nMulty line text 2\r\nMulty line text 3\r\nMulty line text 4",
-  "farray": [
-    "value1",
-    "value2",
-    "value3"
-  ],
-  "fobject": {
-    "fInteger2": 5,
-    "fFloat2": 7.2,
-    "fString2": "Simple text",
-    "fobject2": {
-      "fInteger3": 5,
-      "fFloat3": 7.2
+  "update": {
+    "name1": "value1_2",
+    "name2": [
+      "value1_2",
+      "value3_2"
+    ],
+    "name3": {
+      "name1": "value1_2",
+      "name3": "value3_2"
+    },
+    "name4": "value4_2"
+  },
+  "delete": {
+    "_d-name1": null,
+    "name3": {
+      "_d-name1": null
     }
+  },
+  "concat": {
+    "_c-name1": " value1_2",
+    "_c-name2": [
+      "value2_2"
+    ]
+  },
+  "before": {
+    "_b-name1-name2": "value2_2"
   }
 }

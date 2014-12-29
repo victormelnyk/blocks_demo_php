@@ -1,4 +1,4 @@
-<?php
+<?
 function recordsetPostProcess(&$aRecordset, $aControler)
 {
   for ($i = 0, $l = count($aRecordset); $i < $l; $i++)

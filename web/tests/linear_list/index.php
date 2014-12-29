@@ -1,4 +1,4 @@
-<?php
+<?
 require_once('../../../../blocks/comp/common/tools.php');
 require_once('../../../../blocks/ext/php_json_format_master/jsonformat.class.php');
 
@@ -34,15 +34,13 @@ Multy line text 4',
 */
 $itemsJson1 = fileToString('1.json');
 $items1 = json_decode($itemsJson1, true);
-//p2($itemsJson1); vd($items1);
 $list1 = new HierarchyList($items1);
 
 $itemsJson2 = fileToString('2.json');
 $items2 = json_decode($itemsJson2, true);
 $list2 = new HierarchyList($items2);
 
-
-/*
+/*!
 $list1_level1 = $list1->getCurrList();
 vd($list1_level1->getNextByN('fInteger'));
 vd($list1_level1->getNextByN('fFloat'));
@@ -70,27 +68,16 @@ $list1->endLevel();
 $list1->finalize();
 */
 
+$list1->getCurrList()->marge($list2->getCurrList()->getItems());
+$items1 = $list1->getCurrList()->getItems();
 
-/*
-$itemsJson = json_encode($items);
+$itemsJson = json_encode($items1);
 $jsonFormater = new JSONFormat();
-$itemsJsonFormated = $jsonFormater->format($itemsJson, true);
+$itemsJson = $jsonFormater->format($itemsJson, true);
+stringToFile($itemsJson, 'result.json');
 
-//
-stringToFile($itemsJsonFormated, 'test_formated.json');
-stringToFile($itemsJson, 'test.json');
+//!vd($items1);
 
-var_dump($items, $itemsJson, $itemsJsonFormated);
-
-$itemsJsonFormated2 = fileToString('test.json');
-$items2 = json_decode($itemsJson, true);
-
-var_dump($items2, $itemsJsonFormated2);*/
-
-
-$a1 = array('f1' => 1, 'f2' => 2, 'a' => array('f5' => 5, 'f6' => 6));
-$a2 = array('f2' => 3, 'f3' => 4, 'a' => array('f5' => 7));
-
-$a3 = margeArray($a1, $a2);
-vd($a3);
+eAssert(trim(fileToString('result.json')) == trim(fileToString('etalon.json')));
+p('done');
 ?>

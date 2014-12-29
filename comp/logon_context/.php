@@ -1,8 +1,8 @@
-<?php
-cPage::moduleAdd('blocks/comp/helpers/crypt/1/.php');
-cPage::moduleAdd('blocks/comp/logon_context/.php');
+<?
+Page::addModule('blocks/comp/helpers/crypt/1/.php');
+Page::addModule('blocks/comp/logon_context/.php');
 
-class cBlocksDemo_LogonContext extends cLogonContext
+class BlocksDemo_LogonContext extends cLogonContext
 {
   protected function readFromDb($aUserLogin, $aUserPassword)
   {

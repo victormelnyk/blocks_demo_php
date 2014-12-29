@@ -1,4 +1,4 @@
-<?php
+<?
 require_once('../../../blocks/components/common/tools.php');
 require_once('../../../blocks/components/helpers/performance_counter/.php');
 
