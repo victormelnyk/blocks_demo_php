@@ -1,0 +1,19 @@
+{
+  "blocks": {
+    "component_lib": {
+      "component": "blocks.sys.static"
+    },
+    "block_page_block_inherited": {
+      "component": "blocks.sys.static"
+    },
+    "block_page_inherited": {
+      "component": "blocks.sys.static"
+    },
+    "block_component": {
+      "component": "blocks.sys.static"
+    },
+    "block_component_inherited": {
+      "component": "blocks.sys.static"
+    }
+  }
+}

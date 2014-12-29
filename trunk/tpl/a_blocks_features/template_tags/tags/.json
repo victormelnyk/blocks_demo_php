@@ -1,0 +1,14 @@
+{
+  "ml": {
+    "tags": {
+      "country": {
+        "en": "English",
+        "uk": "Ukraine",
+        "ru": "Russia"
+      }
+    }
+  },
+  "tags": {
+    "tagString": "TagValue"
+  }
+}
