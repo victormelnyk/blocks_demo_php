@@ -1,5 +1,5 @@
 <?
-require_once($settings['rootDir'] . 'blocks/comp/common/tools.php');
-require_once($settings['rootDir'] . 'blocks/comp/blocks/blocks.php');
-Page::createSettings($settings);
+require_once($settings['rootDir'] . 'app/blocks/comp/common/tools.php');
+require_once($settings['rootDir'] . 'app/blocks/comp/blocks/blocks.php');
+Page::init($settings);
 ?>
