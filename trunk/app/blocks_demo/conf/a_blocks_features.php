@@ -1,10 +1,8 @@
 <?
 $settings = array(
-  'rootDir' => '../../../',
-
-  'isCache'   => false,
-  'isProfile' => false,
-  'isTest'    => true
+  'rootDir' => '../',
+  'isCache' => false,
+  'isTest' => true
 );
-require_once($settings['rootDir'] . '/blocks_demo/conf/_.php');
+require_once($settings['rootDir'] . 'app/blocks_demo/conf/_.php');
 ?>
