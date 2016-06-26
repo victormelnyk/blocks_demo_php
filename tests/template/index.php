@@ -1,7 +1,7 @@
 <?
 require_once('../../../blocks/components/common/tools.php');
 
-print(templateProcess(fileToString('.htm'), array(
+print(processTemplate(fileToString('.htm'), array(
   'string' => 'text',
   'integer' => 5,
   'float' => 10 / 3,

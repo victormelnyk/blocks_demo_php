@@ -20,7 +20,7 @@ cPCHelper::stop('TagsReplace');
 
 cPCHelper::start('TemplateProcess');
 for ($i = 0; $i < $lIterationCount; $i++)
-  templateProcess($lStr2, $lNamesValues);
+  processTemplate($lStr2, $lNamesValues);
 cPCHelper::stop('TemplateProcess');
 
 cPCHelper::saveToHtml();

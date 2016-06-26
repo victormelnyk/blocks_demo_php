@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "pages": [{
+        "path": "a_blocks_features.hello_world",
+        "name": "Hello world",
+        "description": "Simple page"
+      }, {
+        "path": "a_blocks_features.override",
+        "name": "Override",
+        "description": "Override levels"
+      }, {
+        "path": "a_blocks_features.template_tags",
+        "name": "TemplateTags",
+        "description": "Tags replase in files"
+      }, {
+        "path": "a_blocks_features.page_child",
+        "name": "Inheritance pages",
+        "description": "Inheritance pages"
+      }, {
+        "path": "a_blocks_features.ml",
+        "name": "i19n",
+        "description": "i19n files and tags"
+      }
+    ]
+  }
+}

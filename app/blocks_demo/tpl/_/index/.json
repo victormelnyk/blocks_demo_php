@@ -1,0 +1,7 @@
+{
+  "blocks": {
+    "content": {
+      "component": "blocks.pages_view.build"
+    }
+  }
+}
